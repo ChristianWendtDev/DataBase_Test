@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DataBase_Test/DataBase_Test.csproj" />
+  <Project Path="HotelConsoleApp/HotelConsoleApp.csproj" Id="e7f16f8a-f008-4cef-a083-8b151c91dbc3" />
+</Solution>
