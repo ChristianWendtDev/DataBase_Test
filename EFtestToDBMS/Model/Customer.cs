@@ -14,4 +14,9 @@ public partial class Customer
     public string Phone { get; set; }
 
     public virtual ICollection<Booking> Bookings { get; set; } = new List<Booking>();
+
+    public override string ToString()
+	{
+		return $"{{{nameof(Id)}={Id.ToString()}, {nameof(Name)}={Name.ToString()}, {nameof(Phone)}={Phone.ToString()}}}";
+	}
 }
